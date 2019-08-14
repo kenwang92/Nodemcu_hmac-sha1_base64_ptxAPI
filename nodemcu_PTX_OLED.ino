@@ -20,7 +20,7 @@ const int httpsPort = 443;
 const char* host = "ptx.transportdata.tw";
 String url = "/MOTC/v2/Bus/EstimatedTimeOfArrival/City/NewTaipei/99?$select=EstimateTime&$filter=StopID%20eq%20%27178614%27&$format=JSON";
 const char fingerprint[] = "CB 58 99 2F CA CA 7B AA 17 58 C5 8B 57 70 D1 FC A6 4C CA C7";
-String id = "";APPid//get by here https://ptx.transportdata.tw/PTX/ and you have need an account
+String id = "";//APP ID get by click here https://ptx.transportdata.tw/PTX/ and you have need an account
 const long zone = 0;
 char *wday[] = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
 char *month[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
