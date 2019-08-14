@@ -11,7 +11,7 @@
       * More information click [here](https://github.com/ThingPulse/esp8266-oled-ssd1306)
       * `OLED FONTS Create` http://oleddisplay.squix.ch/#/home
 
-5.Give my a star if you like it thanks!  
+5.Give me a star if you like it thanks!  
 ***
 Some Code from :  
 * https://forum.arduino.cc/index.php?topic=342528.0  
