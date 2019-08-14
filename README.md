@@ -1,9 +1,8 @@
 # Nodemcu_hmac-sha1_base64_ptxAPI_OLED
 1.Apply an account on [PTX](https://ptx.transportdata.tw/PTX/)  
-2.Get `APP ID` `APP KEY` from email authentication  
-3.Put your `APP ID` `APP KEY` in code and setup WiFi `ssid` `passwd`  
-4.Download some library
-  * Special Library  
+2.Get `APP ID`&`APP KEY` from email authentication  
+3.Put your `APP ID`&`APP KEY` in code and setup WiFi `ssid` `passwd`  
+4.Download some libraries as the below!
     * `hmac-sha1` https://github.com/Cathedrow/Cryptosuite  
     * `base64` https://www.arduinolibraries.info/libraries/base64  
     * `OLED` https://github.com/ThingPulse/esp8266-oled-ssd1306  
