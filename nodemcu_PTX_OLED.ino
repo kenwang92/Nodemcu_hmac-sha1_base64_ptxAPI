@@ -6,7 +6,6 @@
 #include <WiFiUdp.h>
 #include <avr/pgmspace.h>
 #include <sha1.h>
-#include <base64.h>
 #include <WiFiClientSecure.h>
 //#include <Orbitron_Medium_35.h>
 //#include <Orbitron_Medium_25.h>
