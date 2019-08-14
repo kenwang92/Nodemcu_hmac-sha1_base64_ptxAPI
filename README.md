@@ -3,11 +3,11 @@
 2.Get `APP ID`&`APP KEY` from email authentication  
 3.Put your `APP ID`&`APP KEY` in code and setup WiFi `ssid` `passwd`  
 4.Download some libraries as the below!
-    * `hmac-sha1` https://github.com/Cathedrow/Cryptosuite  
-    * `OLED` https://github.com/ThingPulse/esp8266-oled-ssd1306
+  * `hmac-sha1` https://github.com/Cathedrow/Cryptosuite  
+  * `OLED` https://github.com/ThingPulse/esp8266-oled-ssd1306
     * You have to creat your own fonts library & add `#include <OLED fonts library>` in code
-      * More information click [here](https://github.com/ThingPulse/esp8266-oled-ssd1306)
-      * `OLED FONTS Create` http://oleddisplay.squix.ch/#/home
+       * More information click [here](https://github.com/ThingPulse/esp8266-oled-ssd1306)
+       * `OLED FONTS Create` http://oleddisplay.squix.ch/#/home
 
 5.Give me a star if you like it thanks!  
 ***
