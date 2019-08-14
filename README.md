@@ -3,7 +3,7 @@
 2.Get `APP ID` `APP KEY` from email authentication  
 3.Put your `APP ID` `APP KEY` in code and setup WiFi `ssid` `passwd`  
 4.Download some library
-  * Here is special library not all  
+  * Special Library  
     * `hmac-sha1` https://github.com/Cathedrow/Cryptosuite  
     * `base64` https://www.arduinolibraries.info/libraries/base64  
     * `OLED` https://github.com/ThingPulse/esp8266-oled-ssd1306  
