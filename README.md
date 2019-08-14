@@ -1,5 +1,5 @@
 # Nodemcu_hmac-sha1_base64_ptxAPI_OLED
-1.Get an account on [PTX](https://ptx.transportdata.tw/PTX/)  
+1.Apply an account on [PTX](https://ptx.transportdata.tw/PTX/)  
 2.Get `APP ID` `APP KEY` from email authentication  
 3.Put your `APP ID` `APP KEY` in code and setup WiFi `ssid` `passwd`  
 4.Download some library
