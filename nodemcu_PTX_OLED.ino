@@ -8,9 +8,9 @@
 #include <sha1.h>
 #include <base64.h>
 #include <WiFiClientSecure.h>
-#include <Orbitron_Medium_35.h>
-#include <Orbitron_Medium_25.h>
-#include <Orbitron_Medium_20.h>
+//#include <Orbitron_Medium_35.h>
+//#include <Orbitron_Medium_25.h>
+//#include <Orbitron_Medium_20.h>
 #include <SSD1306.h>
 #include <Wire.h>
 
@@ -28,6 +28,8 @@ char *month[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", 0);
 WiFiClientSecure client;
+#define appkey ""//APPkey
+
 /*
 String printHash(uint8_t* hash) {
   char a1[20];
@@ -64,14 +66,14 @@ void setup() {
     Serial.println("wait...");
     display.clear();
     display.setTextAlignment(TEXT_ALIGN_LEFT);
-    display.setFont(Orbitron_Medium_35);
+    //display.setFont(Orbitron_Medium_35);
     display.drawString(1,30,"Wait...");
     display.display();
   }//wait for WIFI connect
   Serial.println("success!");
   display.clear();
   display.setTextAlignment(TEXT_ALIGN_LEFT);
-  display.setFont(Orbitron_Medium_20);
+  //display.setFont(Orbitron_Medium_20);
   display.drawString(1,30,"Success!");
   display.display();
   
@@ -139,7 +141,6 @@ String getHeader(String input) {
   strcat(basestring, e);
   //Serial.print("basestring:");//debug for GMT
   //Serial.println(basestring);//debug for hmac-sha1
-#define appkey ""//APPkey
   uint8_t *in, out, i;
   char b64[29];
   char key[] = appkey;
@@ -233,9 +234,9 @@ void loop() {
     int displayMins = floor(atoi(str)/60);
     display.clear();
     display.setTextAlignment(TEXT_ALIGN_LEFT);
-    display.setFont(Orbitron_Medium_35);
+    //display.setFont(Orbitron_Medium_35);
     display.drawString(0,1,"NO.99");
-    display.setFont(Orbitron_Medium_25);
+    //display.setFont(Orbitron_Medium_25);
     display.setTextAlignment(TEXT_ALIGN_LEFT);
     display.drawString(0,37,String(displayMins)+" MINS");
     display.display();
