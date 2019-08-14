@@ -1,7 +1,11 @@
-# Nodemcu_hmac-sha1_base64_ptxAPI
+# Nodemcu_hmac-sha1_base64_ptxAPI_OLED
 1.Get an account on [PTX](https://ptx.transportdata.tw/PTX/)  
-2.Get `APP ID` `APP KEY` from email  
+2.Get `APP ID` `APP KEY` from email authentication
 3.Put your `APP ID` `APP KEY` in code and setup WiFi `ssid` `passwd`  
-4.If you like it give my a star thanks!  
+4.Give my a star if you like it thanks!  
 ***
-資料介接「交通部PTX平臺」&平臺標章![PTX LOGO]()
+Some Code from :  
+https://forum.arduino.cc/index.php?topic=342528.0  
+https://github.com/jalmeroth/ESP8266-OAUTH2/blob/master/ESP8266-OAUTH2/ESP8266-OAUTH2.ino  
+https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WiFi/examples/HTTPSRequest/HTTPSRequest.ino  
+資料介接「交通部PTX平臺」&平臺標章![PTX LOGO](https://github.com/kenwang92/Nodemcu_hmac-sha1_base64_ptxAPI/blob/master/PTX_LOGO.png)
